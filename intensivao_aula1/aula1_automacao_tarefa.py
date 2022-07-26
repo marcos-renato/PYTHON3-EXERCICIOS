@@ -4,22 +4,21 @@ import pyperclip as ppc
 
 pyt.pause = 1
 
-##pyt.alert("Vai começar, aperte ok e não mexa em nada")
-##time.sleep = 2
-pyt.hotkey("Win","r")
-pyt.write("chrome")
-pyt.press("enter")
-time.sleep(3)
-ppc.copy("portal.office.com")
+# script para automatizar o acesso a uma pagina de e-mail este era para o office365
+pyt.hotkey("Win","r") # comando para abrir o executar do windows
+pyt.write("chrome") # escreve o nome do programa
+pyt.press("enter") # aperta a tecla enter
+time.sleep(3) # comando para fazer uma interrupção maior de tempo. neste caso 3 segundo
+ppc.copy("www.portal_que_desejamos_acessar.com.br")
 pyt.hotkey("ctrl","v")
 pyt.press("enter")
 time.sleep(3)
-pyt.write("marcos.vicente@santacasajf.org.br")
+pyt.write("login do usuarios")
 pyt.press("enter")
 time.sleep(5)
 pyt.press("enter")
 time.sleep(5)
-ppc.copy("F@b14n4M4rt1ns")
+ppc.copy("senha do usuario")
 pyt.hotkey("ctrl","v")
 pyt.press("enter")
 time.sleep(3)
