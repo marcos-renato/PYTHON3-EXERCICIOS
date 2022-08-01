@@ -3,7 +3,7 @@ import time
 import pyperclip as ppc
 
 pyt.hotkey("win","r") 
-pyt.write("jpicpl32.cpl") 
+pyt.write("jjpicpl32.cpl") 
 pyt.press("enter") 
 time.sleep(1)
 pyt.press("tab") 
