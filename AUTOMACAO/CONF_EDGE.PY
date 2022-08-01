@@ -1,9 +1,11 @@
-import pyautogui as pyt                                
+import pyautogui as pyt                                   
 import time
 import pyperclip as ppc
-
+         
 pyt.hotkey("ctrl","esc") 
+time.sleep(2)
 pyt.write("Configurar Java") 
+time.sleep(2)
 pyt.press("enter") 
 time.sleep(1)
 pyt.press("tab") 
@@ -33,7 +35,7 @@ time.sleep(0.5)
 pyt.press("space") 
 time.sleep(0.5)
 pyt.press("enter")
-time.sleep(10) 
+"""time.sleep(10) 
 pyt.press("tab") 
 time.sleep(0.5)
 pyt.press("tab") 
@@ -183,8 +185,9 @@ pyt.press("enter")
 time.sleep(0.3)
 pyt.write("http://172.18.2.232") 
 time.sleep(0.3)
-pyt.press("enter") 
+pyt.press("tab") 
 time.sleep(0.3)
-pyt.press("enter") 
-time.sleep(0.3)
-pyt.press("enter") 
+pyt.press("enter") """
+## time.sleep(0.3)
+## pyt.press("enter") 
+         
