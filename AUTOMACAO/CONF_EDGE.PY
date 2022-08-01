@@ -2,8 +2,8 @@ import pyautogui as pyt
 import time
 import pyperclip as ppc
 
-pyt.hotkey("win","r") 
-pyt.write("jjpicpl32.cpl") 
+pyt.hotkey("ctrl","esc") 
+pyt.write("Configurar Java") 
 pyt.press("enter") 
 time.sleep(1)
 pyt.press("tab") 
