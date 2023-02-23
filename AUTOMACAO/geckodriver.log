@@ -1,0 +1,18 @@
+1661537006638	geckodriver	INFO	Listening on 127.0.0.1:50972
+1661537007156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\F15101\\AppData\\Local\\Temp\\rust_mozprofileelYMXD"
+1661537007751	Marionette	INFO	Marionette enabled
+1661537007758	Marionette	INFO	Listening on port 50981
+WebDriver BiDi listening on ws://localhost:50973
+Read port: 50981
+1661537007925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\F15101\\AppData\\Local\\Temp\\rust_mozprofileelYMXD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50973/devtools/browser/f545d65d-ac65-4ff8-aadc-395769020d4c
+1661537026706	Marionette	INFO	Stopped listening on port 50981
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1661537026764	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 57"  data: no] Stack trace: allowAllCerts.disable()@cert.js:57
+destroy()@Session.jsm:206
+deleteSession()@WebDriverBiDi.jsm:148
+stop()@WebDriverBiDi.jsm:227
+observe()@resource://gre/modules/AsyncShutdown.jsm:576

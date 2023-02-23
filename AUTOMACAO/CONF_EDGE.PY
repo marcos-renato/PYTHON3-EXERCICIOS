@@ -1,5 +1,5 @@
 import pyautogui as pyt                                   
-import time
+import time         
 import pyperclip as ppc
          
 pyt.hotkey("ctrl","esc") 
